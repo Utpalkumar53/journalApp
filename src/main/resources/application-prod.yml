@@ -1,0 +1,13 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Utpal:123@cluster0.fthdqna.mongodb.net/journaldb?appName=Cluster0&tls=true&tlsInsecure=false
+      database: journaldb
+      auto-index-creation: true
+
+
+server:
+  port: 8082
+  servlet:
+    context-path: /journal

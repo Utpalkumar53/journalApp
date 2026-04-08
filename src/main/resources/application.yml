@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: offline
+
+
+#logging:
+#  level:
+#    net:
+#      engineeringdigest:
+#        journalApp: DEBUG
+
+#logging:
+#  level:
+#   root: error -----> this only print he error except this evirything will not be visible
+#  because no one is suprior than this
+
+#logging:
+#  level:
+#   root: off
+
+#we can off the logs of particular class or package
+#logging:
+#  level:
+#    net:
+#      engineeringdigest:
+#        journalApp:
+#          service:
+#            UserService: off
